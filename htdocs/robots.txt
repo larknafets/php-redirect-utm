@@ -1,0 +1,22 @@
+Order deny, allow
+Deny from .123people.de
+Deny from .findestars.de
+Deny from .myonid.de
+Deny from .peekyou.com
+Deny from .pipl.com
+Deny from .rapleaf.com
+Deny from .snitch.name
+Deny from .spock.com
+Deny from .tweepz.com
+Deny from .wink.com
+Deny from .yasni.de
+Deny from .yoname.com
+Deny from .yourtraces.com
+Deny from .zoominfo.com
+
+User-agent: Yasni
+User-agent: Pipl
+User-agent: 123People
+User-agent: MyOnID
+User-agent: ia_archiver
+Disallow: /
