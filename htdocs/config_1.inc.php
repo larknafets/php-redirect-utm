@@ -22,8 +22,11 @@ $ga_tracking_id = ''; // tracking ID: UA-12345678-9
 $ga_document_host = 'domain.com'; // host name/domain used in Google Analytics, eg. domain.com
 $ga_anonymize_ip = 'yes'; // anonymize IP - yes/no
 // URL parameters to forward
+$par[] = 'utm_id'; // Campaign ID
 $par[] = 'fbclid'; // Facebook Click ID
 $par[] = 'gclsrc'; // Google Search Ads 360
+$par[] = 'epik'; // Pinterest ID
+$par[] = 'pt'; // Pic-Time embedded Slideshows/Videos: pt=ed
 
 // --- /MAIN CONFIG / DEFAULTS ---
 ?>
